@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.SXQ0607/gk-pay-skills-mcp",
-  "description": "Alipay A2M pay-per-use MCP Server exposing 13 Chinese-language paid tools (industrial equipment fault diagnosis, PLC variable annotation, viral hook writing, A-share morning brief, bazi quick read, ziwei stars, e-commerce selling copy, novel outline studio, Toutiao killer titles, XHS viral notes, Xianyu listing pro, term mapping, calculator). Each call returns HTTP 402 with an Alipay payment bill when unpaid; with valid Payment-Proof header the tool executes and returns results. 0.05 CNY per call, instant Alipay settlement.",
+  "description": "13 pay-per-use Chinese tools (diagnosis, PLC, copywriting, divination), 0.05 CNY/call via A2M 402.",
   "version": "1.0.0",
   "websiteUrl": "https://github.com/SXQ0607/gk-pay-skills-mcp",
   "repository": {
