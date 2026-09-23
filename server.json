@@ -2,10 +2,16 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.SXQ0607/gk-pay-skills-mcp",
   "description": "13 pay-per-use Chinese tools (diagnosis, PLC, copywriting, divination), 0.05 CNY/call via A2M 402.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "websiteUrl": "https://github.com/SXQ0607/gk-pay-skills-mcp",
   "repository": {
     "url": "https://github.com/SXQ0607/gk-pay-skills-mcp",
     "source": "github"
-  }
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gk-pay-skills-mcp-308980-8-1461759720.sh.run.tcloudbase.com/mcp"
+    }
+  ]
 }
