@@ -1,0 +1,13 @@
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties: {}
+    additionalProperties: false
+  commandFunction: |
+    ({ config }) => {
+      return {
+        command: 'python',
+        args: ['server.py']
+      };
+    }
