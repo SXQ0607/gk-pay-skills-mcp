@@ -60,3 +60,5 @@ from server import _call
 print(_call("/api/diagnose", {"brand":"g120","symptom":"F07452"}))
 # 期望: {'status': 402, 'payment_needed': '...', 'amount_cny': 0.05, ...}
 ```
+
+mcp-name: io.github.SXQ0607/gk-pay-skills-mcp
